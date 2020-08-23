@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../../components/Hero";
-import Topnav from "../../components/Topnav";
+// import Hero from "../../components/Hero";
+// import Topnav from "../../components/Topnav";
 import Sidenav from "../../components/Sidenav";
 import ProjectCard from "../../components/ProjectCard";
 

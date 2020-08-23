@@ -1,29 +1,37 @@
 import React from "react";
-import "./styles.scss";
+import { PropTypes } from "prop-types";
 
-function TechnologyCard() {
-  return (
-    <div className="card mb-5">
-      <div className="m-0 row">
-        <div className="titleSection py-3 col-12 col-md-auto">
-          <div className="px-4 h-100 d-flex align-items-center justify-content-center">
-            <div className="bg-primary m-2 small text-center" style={{ height: "90px", width: "60px" }}>Angular</div>
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
+
+const TechnologyCard = (props) => {
+  if (props.skill.projectsUsed > 0) {
+    return (
+      <OverlayTrigger
+        placement="bottom"
+        overlay={<Tooltip id={`skill-${props.skill.id}`}>
+          {props.skill.projectsUsed}&nbsp;{props.skill.projectsUsed == 1 ? "project" : "projects"}
+        </Tooltip>}
+      >
+        <div key={props.skill.id} className="px-4 d-flex flex-column align-items-center justify-content-center small text-center">
+          <div class="d-flex align-items-center" style={{ minHeight: "80px", width: "60px" }}>
+            <img src={props.skill.skillIcon} width="100%" height="auto" />
           </div>
+          {props.skill.name}
         </div>
-        <div className="py-2 col-12 col-md px-2">
-          <div className="h-100 d-flex align-items-center flex-wrap">
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-            <div className="bg-primary my-2 mx-3" style={{ height: "90px", width: "60px" }}></div>
-          </div>
-        </div>
-      </div>
+      </OverlayTrigger>
+    )
+  }
+  return (<div key={props.skill.id} className="px-4 d-flex flex-column align-items-center justify-content-center small text-center">
+    <div class="d-flex align-items-center" style={{ minHeight: "80px", width: "60px" }}>
+      <img src={props.skill.skillIcon} width="100%" height="auto" />
     </div>
-  );
+    {props.skill.name}
+  </div>)
 }
+
+// TechnologyCard.propTypes = {
+//   skills: PropTypes.array.isRequired
+// }
 
 export default TechnologyCard;

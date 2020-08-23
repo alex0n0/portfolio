@@ -58,7 +58,7 @@ export const projects = [
         list: ["Angular", "Bootstrap"]
       },
       {
-        category: "Back End",
+        category: "Deployment",
         list: ["Github pages"]
       }
     ],

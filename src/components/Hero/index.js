@@ -1,11 +1,15 @@
 import React from "react";
 import "./styles.scss";
-// import imgHeroPattern from "../../assets/images/hero-pattern.png";
+import { Link } from "react-router-dom";
+
 
 function Hero() {
   return (
     <section className="hero pmw d-flex align-items-center justify-content-center flex-column text-light text-center position-relative">
       <div className="hero-pattern position-absolute"></div>
+      <div className="pt-2 container position-absolute d-flex justify-content-start" style={{left: "50%", top: "0px", transform: "translateX(-50%)"}}>
+        <Link to="/" className="p-2 btn text-light d-inline-flex" style={{ fontSize: "1.25rem" }}><i className="fas fa-home"></i></Link>
+      </div>
 
       <div className="text-center position-relative animate__animated animate__fadeInDown animate__slower">
         <h1>Alexander Wu</h1>
