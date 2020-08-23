@@ -1,4 +1,22 @@
 import { v4 as uuid } from "uuid";
+import screenshot_theia_mobile from "../assets/images/projects/screenshot_theia_desktop.png";
+import screenshot_theia_desktop from "../assets/images/projects/screenshot_theia_desktop.png";
+import screenshot_flyin_mobile from "../assets/images/projects/screenshot_flyin_mobile.png";
+import screenshot_flyin_desktop from "../assets/images/projects/screenshot_flyin_desktop.png";
+import screenshot_orderaway_mobile from "../assets/images/projects/screenshot_orderaway_mobile.png";
+import screenshot_orderaway_desktop from "../assets/images/projects/screenshot_orderaway_desktop.png";
+import screenshot_reactclickergame_mobile from "../assets/images/projects/screenshot_reactclickergame_mobile.png";
+import screenshot_reactclickergame_desktop from "../assets/images/projects/screenshot_reactclickergame_desktop.png";
+import screenshot_automender_mobile from "../assets/images/projects/screenshot_automender_mobile.png";
+import screenshot_automender_desktop from "../assets/images/projects/screenshot_automender_desktop.png";
+import screenshot_eatdaburger_mobile from "../assets/images/projects/screenshot_eatdaburger_desktop.png";
+import screenshot_eatdaburger_desktop from "../assets/images/projects/screenshot_eatdaburger_desktop.png";
+import screenshot_bamazon_mobile from "../assets/images/projects/screenshot_bamazon_desktop.png";
+import screenshot_bamazon_desktop from "../assets/images/projects/screenshot_bamazon_desktop.png";
+import screenshot_liri_bot_mobile from "../assets/images/projects/screenshot_liri_bot_desktop.png";
+import screenshot_liri_bot_desktop from "../assets/images/projects/screenshot_liri_bot_desktop.png";
+import screenshot_star_wars_rpg_game_mobile from "../assets/images/projects/screenshot_star_wars_rpg_game_mobile.png";
+import screenshot_star_wars_rpg_game_desktop from "../assets/images/projects/screenshot_star_wars_rpg_game_desktop.png";
 
 // projects are reverse chronological
 export const projects = [
@@ -7,7 +25,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Mass Messaging",
     projectDescription: "Message multiple contacts",
-    projectScreenshot: "https://miro.medium.com/max/5360/1*d7_iZtG8vNH0OJrAc1SwIQ.png",
+    projectScreenshotMobile: null,
+    projectScreenshotDesktop: null,
     categories: [
       {
         category: "Front End",
@@ -31,7 +50,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Computer Store",
     projectDescription: "Form to customise a computer",
-    projectScreenshot: null,
+    projectScreenshotMobile: null,
+    projectScreenshotDesktop: null,
     categories: [
       {
         category: "Front End",
@@ -51,7 +71,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Theia",
     projectDescription: "Top down live viewer for VR application",
-    projectScreenshot: null,
+    projectScreenshotMobile: screenshot_theia_mobile,
+    projectScreenshotDesktop: screenshot_theia_desktop,
     categories: [],
     designURL: "https://www.figma.com/proto/HlXIScNHZlq7h4OabiUivE/TheiaDesign?node-id=16%3A4&scaling=min-zoom",
     liveURL: null,
@@ -62,7 +83,8 @@ export const projects = [
     isOriginal: false,
     projectName: "Flyin",
     projectDescription: "Trip browsing site",
-    projectScreenshot: "https://alex0n0.github.io/FrontEndDevGallery/public/media/flyin_reference.png",
+    projectScreenshotMobile: screenshot_flyin_mobile,
+    projectScreenshotDesktop: screenshot_flyin_desktop,
     categories: [
       {
         category: "Front End",
@@ -73,7 +95,7 @@ export const projects = [
         list: ["Github Pages"]
       },
     ],
-    designURL: "https://alex0n0.github.io/FrontEndDevGallery/public/media/flyin_reference.png",
+    designURL: screenshot_flyin_desktop,
     liveURL: "https://alex0n0.github.io/FrontEndDevGallery/flyin.html",
     repoURL: "https://github.com/alex0n0/FrontEndDevGallery"
   },
@@ -82,7 +104,8 @@ export const projects = [
     isOriginal: true,
     projectName: "OrderAway",
     projectDescription: "OrderAway is a SaaS for restaurants to create accounts and access table side ordering interfaces that directly display orders on a kitchen screen.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_orderaway.png",
+    projectScreenshotMobile: screenshot_orderaway_mobile,
+    projectScreenshotDesktop: screenshot_orderaway_desktop,
     categories: [
       {
         category: "Front End",
@@ -106,7 +129,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Clicker Game",
     projectDescription: "Clicker game is a Batman themed memory game built using React.js requiring you to click on each option only once.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_reactclickergame.png",
+    projectScreenshotMobile: screenshot_reactclickergame_mobile,
+    projectScreenshotDesktop: screenshot_reactclickergame_desktop,
     categories: [
       {
         category: "Front End",
@@ -130,7 +154,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Automender",
     projectDescription: "Automender is a SaaS application where customers can make appointments with mechanic centres registered with the service.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_automender.png",
+    projectScreenshotMobile: screenshot_automender_mobile,
+    projectScreenshotDesktop: screenshot_automender_desktop,
     categories: [
       {
         category: "Front End",
@@ -154,7 +179,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Eat Da Burger",
     projectDescription: "Eat Da Burger is a Heroku hosted, Node server delivered, webpage with dedicated API routes for create/read/update functionality.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_eatdaburger.png",
+    projectScreenshotMobile: screenshot_eatdaburger_mobile,
+    projectScreenshotDesktop: screenshot_eatdaburger_desktop,
     categories: [
       {
         category: "Front End",
@@ -178,7 +204,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Bamazon",
     projectDescription: "Bamazon is a command line application with a customer and manager interface for purchasing and managing inventory.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_bamazon.png",
+    projectScreenshotMobile: screenshot_bamazon_mobile,
+    projectScreenshotDesktop: screenshot_bamazon_desktop,
     categories: [
       {
         category: "Back End",
@@ -194,7 +221,8 @@ export const projects = [
     isOriginal: true,
     projectName: "LIRI Bot",
     projectDescription: "LIRI Bot is a command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_liri_bot.png",
+    projectScreenshotMobile: screenshot_liri_bot_mobile,
+    projectScreenshotDesktop: screenshot_liri_bot_desktop,
     categories: [
       {
         category: "Back End",
@@ -210,7 +238,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Star Wars RPG",
     projectDescription: "One vs all”–style browser based game.",
-    projectScreenshot: "https://alex0n0.github.io/portfolio/assets/res/screenshot_star_wars_rpg_game.png",
+    projectScreenshotMobile: screenshot_star_wars_rpg_game_mobile,
+    projectScreenshotDesktop: screenshot_star_wars_rpg_game_desktop,
     categories: [
       {
         category: "Front End",

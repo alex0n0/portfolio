@@ -8,10 +8,11 @@ const ProjectCard = (props) => {
       <div className="mb-big">
         <div className="border-top border-right border-left border-secondary rounded-top">
           <div className="row m-0">
-            <div className={props.projectScreenshot != null ? "col-12 col-sm-4 px-0" : "d-none"}>
-              <img src={props.projectScreenshot} height="auto" width="100%"></img>
+            <div className={props.projectScreenshotDesktop != null ? "col-12 col-sm-4 px-0 position-relative" : "d-none"}>
+              <img src={props.projectScreenshotDesktop} height="auto" width="100%" className="mx-auto d-block d-sm-none"></img>
+              <img src={props.projectScreenshotMobile} height="auto" width="100%" className="mx-auto d-none d-sm-block"></img>
             </div>
-            <div className={props.projectScreenshot != null ? "pt-3 col-12 col-sm-8" : "col-12 pt-3"}>
+            <div className={props.projectScreenshotDesktop != null ? "pt-3 col-12 col-sm-8" : "col-12 pt-3"}>
               <div className="d-flex align-items-start">
                 <h6 className="m-0 mr-auto"><b>{props.projectName}</b></h6>
                 {props.isOriginal ? <span className="py-1 mr-1 badge badge-primary b-400 d-inline-block">Original</span> : null}
@@ -49,7 +50,8 @@ ProjectCard.propTypes = {
   isOriginal: PropTypes.bool,
   projectName: PropTypes.string,
   projectDescription: PropTypes.string,
-  projectScreenshot: PropTypes.string,
+  projectScreenshotMobile: PropTypes.string,
+  projectScreenshotDesktop: PropTypes.string,
   categories: PropTypes.arrayOf(PropTypes.node),
   frontEnd: PropTypes.arrayOf(PropTypes.string),
   backEnd: PropTypes.arrayOf(PropTypes.string),
