@@ -15,7 +15,7 @@ function TechnologiesPage() {
         <h2 className="text-center">Resume</h2>
         <div className="mb-5 d-flex">
           <a href="https://alex0n0.github.io/portfolio/assets/res/AlexanderWuCV.pdf"
-            target="_blank" className="mx-auto btn" style={{ fontSize: "2rem" }}><i className="fas fa-file-pdf"></i></a>
+            target="_blank" rel="noopener noreferrer" className="mx-auto btn" style={{ fontSize: "2rem" }}><i className="fas fa-file-pdf"></i></a>
         </div>
 
         <h2 className="text-center">Technologies Used</h2>

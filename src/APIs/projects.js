@@ -27,6 +27,7 @@ export const projects = [
     projectDescription: "Message multiple contacts",
     projectScreenshotMobile: null,
     projectScreenshotDesktop: null,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -52,6 +53,7 @@ export const projects = [
     projectDescription: "Form to customise a computer",
     projectScreenshotMobile: null,
     projectScreenshotDesktop: null,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -73,6 +75,7 @@ export const projects = [
     projectDescription: "Top down live viewer for VR application",
     projectScreenshotMobile: screenshot_theia_mobile,
     projectScreenshotDesktop: screenshot_theia_desktop,
+    projectScreenshotAlt: "",
     categories: [],
     designURL: "https://www.figma.com/proto/HlXIScNHZlq7h4OabiUivE/TheiaDesign?node-id=16%3A4&scaling=min-zoom",
     liveURL: null,
@@ -85,6 +88,7 @@ export const projects = [
     projectDescription: "Trip browsing site",
     projectScreenshotMobile: screenshot_flyin_mobile,
     projectScreenshotDesktop: screenshot_flyin_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -106,6 +110,7 @@ export const projects = [
     projectDescription: "OrderAway is a SaaS for restaurants to create accounts and access table side ordering interfaces that directly display orders on a kitchen screen.",
     projectScreenshotMobile: screenshot_orderaway_mobile,
     projectScreenshotDesktop: screenshot_orderaway_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -131,6 +136,7 @@ export const projects = [
     projectDescription: "Clicker game is a Batman themed memory game built using React.js requiring you to click on each option only once.",
     projectScreenshotMobile: screenshot_reactclickergame_mobile,
     projectScreenshotDesktop: screenshot_reactclickergame_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -156,6 +162,7 @@ export const projects = [
     projectDescription: "Automender is a SaaS application where customers can make appointments with mechanic centres registered with the service.",
     projectScreenshotMobile: screenshot_automender_mobile,
     projectScreenshotDesktop: screenshot_automender_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -181,6 +188,7 @@ export const projects = [
     projectDescription: "Eat Da Burger is a Heroku hosted, Node server delivered, webpage with dedicated API routes for create/read/update functionality.",
     projectScreenshotMobile: screenshot_eatdaburger_mobile,
     projectScreenshotDesktop: screenshot_eatdaburger_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",
@@ -206,6 +214,7 @@ export const projects = [
     projectDescription: "Bamazon is a command line application with a customer and manager interface for purchasing and managing inventory.",
     projectScreenshotMobile: screenshot_bamazon_mobile,
     projectScreenshotDesktop: screenshot_bamazon_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Back End",
@@ -223,6 +232,7 @@ export const projects = [
     projectDescription: "LIRI Bot is a command line application for making searches to a variety of APIs. This application is run in the terminal (MacOS/Linux), command line (Windows).",
     projectScreenshotMobile: screenshot_liri_bot_mobile,
     projectScreenshotDesktop: screenshot_liri_bot_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Back End",
@@ -240,6 +250,7 @@ export const projects = [
     projectDescription: "One vs all”–style browser based game.",
     projectScreenshotMobile: screenshot_star_wars_rpg_game_mobile,
     projectScreenshotDesktop: screenshot_star_wars_rpg_game_desktop,
+    projectScreenshotAlt: "",
     categories: [
       {
         category: "Front End",

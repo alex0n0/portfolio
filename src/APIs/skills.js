@@ -34,7 +34,7 @@ export const skills =
     {
       id: uuid(),
       name: "Javascript",
-      skillIcon: jsIcon
+      skillIcon: jsIcon,
     },
     {
       id: uuid(),

@@ -9,7 +9,7 @@ const TechnologiesGroup = (props) => {
       {
         props.skills.length > 0 ?
           props.skills.map(currSkill => {
-            return <TechnologyCard skill={currSkill} />
+            return <TechnologyCard key={currSkill.id} skill={currSkill} />
           }): null
       }
     </div>

@@ -20,7 +20,7 @@ function ProjectsPage() {
            <Sidenav></Sidenav>
           </div>
           <div className="col">
-            {apis.projects.map(curr => <ProjectCard key={curr.id} {...curr}></ProjectCard>)}
+            {apis.projects.map((curr, i) => <ProjectCard key={i} project={curr}></ProjectCard>)}
           </div>
         </div>
       </main>
