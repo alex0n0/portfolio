@@ -1,0 +1,9 @@
+@import "../../assets/css/utilities/breakpoints";
+
+.titleSection {
+  border-bottom: 1px solid #dee2e6;
+  @include break-md-min {
+    border-bottom: none;
+    border-right: 1px solid #dee2e6;
+  }
+}

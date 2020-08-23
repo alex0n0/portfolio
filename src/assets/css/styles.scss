@@ -1,0 +1,34 @@
+@import "./utilities/colors";
+
+:root {
+  --primary: #{$primary};
+  --primaryHover: #{$primaryHover};
+
+  --input: #{$input};
+  --inputActive: #{$inputActive};
+
+  --secondary: #{$secondary};
+  --secondaryHover: #{$secondaryHover};
+  // --primary: #{$primary};
+  // --primaryHover: #{$primary};
+
+  // --input: #{$primary};
+  // --inputActive: #{$primary};
+
+  // --secondary: #{$secondary};
+  // --secondaryHover: #{$secondary};
+  // --pmw: 350px;
+}
+
+.pmw {
+  min-width: var(--pmw);
+  // overflow-x: hidden;
+}
+
+@import "./partials/background";
+@import "./partials/badges";
+@import "./partials/borders";
+@import "./partials/cards";
+@import "./partials/inputs";
+@import "./partials/spacing";
+@import "./partials/text";

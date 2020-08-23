@@ -1,0 +1,38 @@
+.topnav {
+  background: linear-gradient(
+    90deg,
+    rgb(226, 226, 226),
+    rgb(179, 179, 179),
+    rgb(226, 226, 226)
+  );
+  $border-color-left: rgb(212, 212, 212);
+
+  .col-4 {
+    .link {
+      padding: 1rem;
+      flex: 0 0 33.333333333333333%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: rgb(68, 68, 68);
+      letter-spacing: 1px;
+      &:hover {
+        color: var(--primary);;
+      }
+      &.active {
+        color: var(--primary);
+        // filter: brightness(200%);
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0px;
+          left: 0px;
+          width: 100%;
+          height: 4px;
+          background-color: var(--primary);
+        }
+      }
+    }
+  }
+}

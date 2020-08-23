@@ -1,0 +1,15 @@
+// @import "../bootstrap/variables";
+// $primary: rgb(22, 91, 122);
+// $primary: rgb(111, 228, 130);
+
+
+$primary: rgb(71, 28, 151);
+$primaryHover: darken($primary, 10%);
+$primaryInput: rgb(71, 28, 151);
+
+$input: $primary;
+$inputActive: rgba($input, 0.5);
+
+// $secondary: rgb(248, 173, 76);
+$secondary: rgb(166, 127, 238);
+$secondaryHover: darken($secondary, 20%);

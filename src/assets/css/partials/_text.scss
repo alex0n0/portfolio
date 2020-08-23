@@ -1,0 +1,59 @@
+@import "../utilities/breakpoints";
+
+body {
+  font-size: 0.9em;
+  @include break-sm-min {
+    font-size: 1em;
+  }
+  @include break-lg-min {
+    font-size: 1.2em;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 2.5em;
+}
+
+h2,
+.h2 {
+  font-size: 2em;
+}
+
+h3,
+.h3 {
+  font-size: 1.75em;
+}
+
+h4,
+.h4 {
+  font-size: 1.5em;
+}
+
+h5,
+.h5 {
+  font-size: 1.25em;
+}
+
+h6,
+.h6 {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+@mixin font-weights {
+  @for $i from 1 through 9 {
+    .b-#{$i}00 {
+      font-weight: #{$i * 100};
+    }
+  }
+}
+@include font-weights;
+
+*::selection {
+  background-color: var(--primary);
+  color: white;
+}

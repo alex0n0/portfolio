@@ -1,0 +1,27 @@
+.hero {
+  --animate-delay: 0.25s;
+
+  min-height: 60vh;
+  padding: 100px 0px;
+  background: linear-gradient(90deg, var(--primaryHover), var(--primary));
+  
+  *::selection {
+    background: white;
+    color: black;
+  }
+}
+
+.hero-pattern {
+  background-image: url("../../assets/images/hero-pattern.png");
+  background-size: 125px 125px;
+  background-attachment: fixed;
+  bottom: 0px;
+  right: 0px;
+  // height: 300px;
+  // width: 300px;
+  // mask-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 1));
+  // mask-image: radial-gradient(circle at top left, transparent 60%, black);
+  height: 100%;
+  width: 100%;
+  mask-image: radial-gradient(circle at center, transparent 30%, rgba(0, 0, 0, 0.4));
+}

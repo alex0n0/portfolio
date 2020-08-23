@@ -1,0 +1,60 @@
+.btn {
+  &:focus {
+    box-shadow: none;
+  }
+  &:active {
+    box-shadow: none !important;
+  }
+  &.disabled {
+    background-color: gainsboro;
+    border-color: gainsboro;
+    color: grey;
+  }
+}
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: white;
+  &:hover,
+  &:focus {
+    background-color: var(--primaryHover);
+    border-color: var(--primaryHover);
+    color: white;
+  }
+  &:active {
+    background-color: var(--primaryHover) !important;
+    border-color: var(--primaryHover) !important;
+  }
+}
+.btn-secondary {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+  color: black;
+  &:hover,
+  &:focus {
+    background-color: var(--secondaryHover);
+    border-color: var(--secondaryHover);
+    color: black;
+  }
+  &:active {
+    background-color: var(--secondaryHover) !important;
+    border-color: var(--secondaryHover) !important;
+    color: black !important;
+  }
+}
+
+.custom-control-label {
+  user-select: none !important;
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+  border-color: var(--input);
+  background-color: var(--input);
+}
+.custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: none;
+  border-color: var(--input) !important;
+}
+.custom-control-input:not(:disabled):active ~ .custom-control-label::before {
+  background-color: var(--inputActive);
+  border-color: var(--inputActive);
+}
