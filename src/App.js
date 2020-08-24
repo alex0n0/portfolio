@@ -1,13 +1,13 @@
 import React from 'react';
 import { Switch, Route } from "react-router-dom";
 
-import HomePage from "./routes/HomePage";
-import ServicesPage from "./routes/ServicesPage";
-import TechnologiesPage from "./routes/TechnologiesPage";
-import ProjectsPage from "./routes/ProjectsPage";
+import HomePage from "./JSX/routes/HomePage";
+import ServicesPage from "./JSX/routes/ServicesPage";
+import TechnologiesPage from "./JSX/routes/TechnologiesPage";
+import ProjectsPage from "./JSX/routes/ProjectsPage";
 
-import Hero from "./components/Hero";
-import Topnav from "./components/Topnav";
+import Hero from "./JSX/components/Hero";
+import Topnav from "./JSX/components/Topnav";
 // import logo from './logo.svg';
 
 function App() {

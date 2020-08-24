@@ -1,4 +1,6 @@
 import { v4 as uuid } from "uuid";
+import screenshot_massmessaging_mobile from "../assets/images/projects/screenshot_massmessaging_mobile.png";
+import screenshot_massmessaging_desktop from "../assets/images/projects/screenshot_massmessaging_desktop.png";
 import screenshot_theia_mobile from "../assets/images/projects/screenshot_theia_desktop.png";
 import screenshot_theia_desktop from "../assets/images/projects/screenshot_theia_desktop.png";
 import screenshot_flyin_mobile from "../assets/images/projects/screenshot_flyin_mobile.png";
@@ -25,8 +27,8 @@ export const projects = [
     isOriginal: true,
     projectName: "Mass Messaging",
     projectDescription: "Message multiple contacts",
-    projectScreenshotMobile: null,
-    projectScreenshotDesktop: null,
+    projectScreenshotMobile: screenshot_massmessaging_mobile,
+    projectScreenshotDesktop: screenshot_massmessaging_desktop,
     projectScreenshotAlt: "",
     categories: [
       {
@@ -43,8 +45,8 @@ export const projects = [
       }
     ],
     designURL: "https://www.figma.com/proto/pxqLUwT1KJqejEKhR0dKoU/Mass-Messaging?node-id=4%3A31&scaling=min-zoom",
-    liveURL: null,
-    repoURL: null,
+    liveURL: "https://alex0n0.github.io/multimessage/",
+    repoURL: "https://github.com/alex0n0/multimessage",
   },
   {
     id: uuid(),
@@ -65,8 +67,8 @@ export const projects = [
       }
     ],
     designURL: "https://www.figma.com/proto/UME5pAh8R8hY6JCD58wiWD/Computers?node-id=1%3A2&scaling=min-zoom",
-    liveURL: null,
-    repoURL: null
+    liveURL: "https://alex0n0.github.io/computerstore/",
+    repoURL: "https://github.com/alex0n0/computerstore"
   },
   {
     id: uuid(),
