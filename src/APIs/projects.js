@@ -21,7 +21,29 @@ import screenshot_star_wars_rpg_game_mobile from "../assets/images/projects/scre
 import screenshot_star_wars_rpg_game_desktop from "../assets/images/projects/screenshot_star_wars_rpg_game_desktop.png";
 
 // projects are reverse chronological
-export const projects = [
+export default [
+  {
+    id: uuid(),
+    isOriginal: true,
+    projectName: "Computer Store",
+    projectDescription: "Form to customise a computer",
+    projectScreenshotMobile: null,
+    projectScreenshotDesktop: null,
+    projectScreenshotAlt: "",
+    categories: [
+      {
+        category: "Front End",
+        list: ["Angular", "Bootstrap"]
+      },
+      {
+        category: "Deployment",
+        list: ["Github pages"]
+      }
+    ],
+    designURL: "https://www.figma.com/proto/UME5pAh8R8hY6JCD58wiWD/Computers?node-id=1%3A2&scaling=min-zoom",
+    liveURL: "https://alex0n0.github.io/computerstore/",
+    repoURL: "https://github.com/alex0n0/computerstore"
+  },
   {
     id: uuid(),
     isOriginal: true,
@@ -47,28 +69,6 @@ export const projects = [
     designURL: "https://www.figma.com/proto/pxqLUwT1KJqejEKhR0dKoU/Mass-Messaging?node-id=4%3A31&scaling=min-zoom",
     liveURL: "https://alex0n0.github.io/multimessage/",
     repoURL: "https://github.com/alex0n0/multimessage",
-  },
-  {
-    id: uuid(),
-    isOriginal: true,
-    projectName: "Computer Store",
-    projectDescription: "Form to customise a computer",
-    projectScreenshotMobile: null,
-    projectScreenshotDesktop: null,
-    projectScreenshotAlt: "",
-    categories: [
-      {
-        category: "Front End",
-        list: ["Angular", "Bootstrap"]
-      },
-      {
-        category: "Deployment",
-        list: ["Github pages"]
-      }
-    ],
-    designURL: "https://www.figma.com/proto/UME5pAh8R8hY6JCD58wiWD/Computers?node-id=1%3A2&scaling=min-zoom",
-    liveURL: "https://alex0n0.github.io/computerstore/",
-    repoURL: "https://github.com/alex0n0/computerstore"
   },
   {
     id: uuid(),

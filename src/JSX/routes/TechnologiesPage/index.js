@@ -1,13 +1,16 @@
 import React from "react";
-
-import apis from "../../../APIs";
-
+import Hero from "../../components/Hero";
+import Topnav from "../../components/Topnav";
 import TechnologiesGroup from "../../components/TechnologiesGroup";
 
-function TechnologiesPage() {
-  const skills = apis.skills;
+import skills from "../../../APIs/skills";
+
+
+function TechnologiesPage(props) {
   return (
     <>
+      <Hero showHeroAnim={props.showHeroAnim}></Hero>
+      <Topnav></Topnav>
       <main className="pagePadding pmw container-xl">
         <h2 className="text-center">Resume</h2>
         <div className="mb-5 d-flex">
@@ -24,7 +27,7 @@ function TechnologiesPage() {
 
         <h6 className="pl-md-5">Back End</h6>
         <TechnologiesGroup skills={skills.backEnd} />
-        
+
         <h6 className="pl-md-5">Design</h6>
         <TechnologiesGroup skills={skills.design} />
 

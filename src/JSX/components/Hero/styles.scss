@@ -9,6 +9,11 @@
     background: white;
     color: black;
   }
+
+  &.short {
+    min-height: 10px;
+    max-height: 200px;
+  }
 }
 
 .hero-pattern {

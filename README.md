@@ -1,7 +1,5 @@
 # Portfolio (2020)
 
-Latest portfolio.
-
 [Click here](https://alex0n0.github.io/portfolio/) for the live site.
 
 ## Features

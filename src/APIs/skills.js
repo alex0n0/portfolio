@@ -28,8 +28,7 @@ import photoshopIcon from "../assets/images/skills/photoshop.png";
 import figmaIcon from "../assets/images/skills/figma.svg";
 import unityIcon from "../assets/images/skills/unity.svg";
 
-export const skills =
-{
+export default {
   languages: [
     {
       id: uuid(),

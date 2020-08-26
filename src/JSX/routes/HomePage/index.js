@@ -4,7 +4,7 @@ import TechnologiesPage from "../TechnologiesPage";
 function HomePage() {
   return (
     <>
-      <TechnologiesPage/>
+      <TechnologiesPage showHeroAnim={true}/>
     </>
   );
 }
