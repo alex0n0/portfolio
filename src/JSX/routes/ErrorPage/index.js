@@ -1,6 +1,4 @@
 import React from "react";
-// import Hero from "../../components/Hero";
-import Topnav from "../../components/Topnav";
 
 import { Link } from "react-router-dom";
 
@@ -18,7 +16,6 @@ function ErrorPage() {
           <p>Page Not Found</p>
         </div>
       </section>
-      {/* <Topnav></Topnav> */}
       <div className="container py-5">
         <p>The page you are looking for does not exist.</p>
         <p>Return to the <Link to="/portfolio">Homepage</Link></p>

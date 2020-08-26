@@ -18,7 +18,7 @@ function App() {
         {/* <Route path="/portfolio/services" exact component={ServicesPage} /> */}
         {/* <Route path="/portfolio/technologies" exact component={TechnologiesPage} /> */}
         <Route path="/portfolio/projects" exact component={ProjectsPage} />
-        <Route path="*" component={ErrorPage} />
+        <Route path="/*" component={ErrorPage} />
       </Switch>
     </>
   );
