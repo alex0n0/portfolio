@@ -25,6 +25,50 @@ export default [
   {
     id: uuid(),
     isOriginal: true,
+    projectName: "Acorns Mobile",
+    projectDescription: "Mobile app for 'Acorns' membership/reward card service for customers of businesses to see a collection of card and reward points.",
+    projectScreenshotMobile: null,
+    projectScreenshotDesktop: null,
+    projectScreenshotAlt: "",
+    categories: [
+      {
+        category: "Front End",
+        list: ["React Native", "React Native Web", "React Native Elements"]
+      },
+      {
+        category: "Deployment",
+        list: ["Netlify"]
+      }
+    ],
+    designURL: "https://www.figma.com/proto/XMSgGYA302Pzfq2uMWD7s1/Acorns?node-id=192%3A606&scaling=min-zoom&page-id=191%3A539",
+    liveURL: "https://aw-acorns-mobile.netlify.app",
+    repoURL: "https://github.com/alex0n0/Acorns_Mobile"
+  },
+  {
+    id: uuid(),
+    isOriginal: true,
+    projectName: "Acorns Web",
+    projectDescription: "Web portal for businesses signed up with 'Acorns' to manage their membership/reward cards, reward profiles and see logs of users and scans.",
+    projectScreenshotMobile: null,
+    projectScreenshotDesktop: null,
+    projectScreenshotAlt: "",
+    categories: [
+      {
+        category: "Front End",
+        list: ["Angular", "Angular Material"]
+      },
+      {
+        category: "Deployment",
+        list: ["Netlify"]
+      }
+    ],
+    designURL: "https://www.figma.com/proto/XMSgGYA302Pzfq2uMWD7s1/Acorns?node-id=2%3A1&scaling=min-zoom&page-id=0%3A1",
+    liveURL: "https://aw-acorns.netlify.app",
+    repoURL: "https://github.com/alex0n0/Acorns_Web"
+  },
+  {
+    id: uuid(),
+    isOriginal: true,
     projectName: "Computer Store",
     projectDescription: "Form to customise a computer",
     projectScreenshotMobile: null,

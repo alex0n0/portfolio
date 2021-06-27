@@ -1,5 +1,11 @@
-import React from 'react';
-import { Switch, Route, Redirect } from "react-router-dom";
+import React from "react";
+import {
+  BrowserRouter,
+  HashRouter,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 
 import HomePage from "./JSX/routes/HomePage";
 // import ServicesPage from "./JSX/routes/ServicesPage";
@@ -10,16 +16,16 @@ import ErrorPage from "./JSX/routes/ErrorPage";
 function App() {
   return (
     <>
-      <Switch>
-        <Route exact path="/">
-          <Redirect to="/portfolio" />
-        </Route>
-        <Route path="/portfolio" exact component={HomePage} />
-        {/* <Route path="/portfolio/services" exact component={ServicesPage} /> */}
-        {/* <Route path="/portfolio/technologies" exact component={TechnologiesPage} /> */}
-        <Route path="/portfolio/projects" exact component={ProjectsPage} />
-        <Route path="/*" component={ErrorPage} />
-      </Switch>
+      <HashRouter>
+        <Switch>
+          {/* <Route exact path="/">
+            <Redirect to="/" />
+          </Route> */}
+          <Route exact path="/" exact component={HomePage} />
+          <Route path="/projects" exact component={ProjectsPage} />
+          <Route path="/*" component={ErrorPage} />
+        </Switch>
+      </HashRouter>
     </>
   );
 }

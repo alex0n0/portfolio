@@ -4,7 +4,7 @@ import Topnav from "../../components/Topnav";
 import TechnologiesGroup from "../../components/TechnologiesGroup";
 
 import skills from "../../../APIs/skills";
-
+import resume from '../../../assets/files/AlexanderWuCV.pdf';
 
 function TechnologiesPage(props) {
   return (
@@ -14,7 +14,7 @@ function TechnologiesPage(props) {
       <main className="pagePadding pmw container-xl">
         <h2 className="text-center">Resume</h2>
         <div className="mb-5 d-flex">
-          <a href="https://alex0n0.github.io/portfolio/assets/res/AlexanderWuCV.pdf"
+          <a href={resume}
             target="_blank" rel="noopener noreferrer" className="mx-auto btn" style={{ fontSize: "2rem" }}><i className="fas fa-file-pdf"></i></a>
         </div>
 
